@@ -46,7 +46,7 @@ $(document).ready(function () {
   
 //Code that displays current date in the header
  var today = dayjs();
-$('#currentDay').text(today.format('MMM D, YYYY'));
+$('#currentDay').text(today.format('MMM D, YYYY h:ma'));
 
 //Fun thing to clear schedule after a week (can be altered)
 setInterval(function(){
